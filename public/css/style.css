@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#0f0f0f;
+    color:white;
+    font-family:'Poppins',sans-serif;
+
+}
+
+.container{
+
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+
+}
+
+header{
+
+    width:100%;
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+header .container{
+
+    height:80px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+.logo h2{
+
+    color:#c9a84c;
+    font-family:'Playfair Display',serif;
+    font-size:28px;
+
+}
+
+.logo span{
+
+    color:#ddd;
+    font-size:14px;
+
+}
+
+nav{
+
+    display:flex;
+    gap:30px;
+
+}
+
+nav a{
+
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#c9a84c;
+
+}
+
+.hero{
+
+    min-height:calc(100vh - 80px);
+
+    display:flex;
+    align-items:center;
+
+}
+
+.hero-texto{
+
+    max-width:650px;
+
+}
+
+.area{
+
+    color:#c9a84c;
+
+    margin-bottom:20px;
+
+    font-size:14px;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.hero h1{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:58px;
+
+    line-height:70px;
+
+    margin-bottom:25px;
+
+}
+
+.hero p{
+
+    color:#bdbdbd;
+
+    line-height:30px;
+
+    margin-bottom:40px;
+
+}
+
+.botao{
+
+    display:inline-block;
+
+    background:#c9a84c;
+
+    color:#111;
+
+    text-decoration:none;
+
+    padding:15px 35px;
+
+    border-radius:4px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.botao:hover{
+
+    background:#d8b65b;
+
+}
+
+footer{
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+    padding:30px 0;
+
+    color:#999;
+
+}

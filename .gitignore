@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 node_modules/
 database/*.db
 .env
+=======
+node_modules
+>>>>>>> abc933033387a80074285d0537ba47ca45a977da
